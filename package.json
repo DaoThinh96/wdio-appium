@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^9.12.1",
-    "appium": "^2.0.1"
+    "appium": "^2.0.1",
+    "webdriverio": "^9.12.1"
   },
   "devDependencies": {
     "@testing-library/webdriverio": "^3.2.1",

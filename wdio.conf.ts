@@ -54,11 +54,12 @@ export const config: WebdriverIO.Config = {
     //
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
-        platformName: 'Android',
-        browserName: 'Chrome',
-        'appium:deviceName': 'Android GoogleAPI Emulator',
-        'appium:platformVersion': '12.0',
-        'appium:automationName': 'UiAutomator2'
+        "appium:automationName": "UiAutomator2",
+        "appium:platformVersion": "12",
+        "appium:deviceName": "emulator-5554",
+        "appium:app": "/Users/daothinh/Downloads/wdio-appium/app/android/Final_Exam_MacroDroid.apk",
+        "appium:appPackage": "com.arlosoft.macrodroid",
+        "appium:appWaitActivity": "com.arlosoft.macrodroid.intro.IntroActivity"
     }],
 
     //
